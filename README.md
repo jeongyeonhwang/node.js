@@ -21,11 +21,11 @@ app.js
 
 ![image](https://github.com/jeongyeonhwang/node.js/assets/90510701/d20d859c-b24a-4389-ab78-b0b3ec706fc6)
 
-* 내보내기 명령어 사용
+* 내보내기 명령어 사용 (다른 파일에서 index.js를 불러올 수 있게 하기 위함)
 
-> 다른 파일에서 index.js를 불러올 수 있게 하기 위함
-
-![image](https://github.com/jeongyeonhwang/node.js/assets/90510701/ab8205ae-9e52-4f45-a2c6-05f2d4eaefe6)
+```javascript
+module.exports = router;
+```
 
 * 라우팅
 
@@ -33,6 +33,22 @@ app.js
 
 ## 4. Controller 분리
 
-* 
+* home.ctrl.js로 빼줄 기능들
+  
+```javascript
+  (req, res) => {
+    res.render("home/login");
+}
+```
+
+* 내보내기 명령어 사용
+  
+```javascript
+module.exports = {
+    hello,
+    login,
+};
+```
+
 
 
