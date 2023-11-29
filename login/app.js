@@ -1,4 +1,4 @@
-// 로그인 화면 만들기 (hard coding ver.)
+# 로그인 화면 만들기 (hard coding ver.)
 
 const express = require("express");
 const app = express();
