@@ -50,5 +50,15 @@ module.exports = {
 };
 ```
 
+* controller 모듈화
+
+> index.js 파일
+  
+```javascript
+const ctrl = require("./home.ctrl");
+
+router.get("/", ctrl.hello);
+router.get("/login", ctrl.login);
+```
 
 
