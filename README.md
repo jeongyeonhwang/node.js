@@ -23,6 +23,8 @@ app.js
 
 * 내보내기 명령어 사용
 
+> 다른 파일에서 index.js를 불러올 수 있게 하기 위함
+
 ![image](https://github.com/jeongyeonhwang/node.js/assets/90510701/ab8205ae-9e52-4f45-a2c6-05f2d4eaefe6)
 
 * 라우팅
@@ -31,5 +33,6 @@ app.js
 
 ## 4. Controller 분리
 
+* 
 
 
