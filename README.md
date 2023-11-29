@@ -25,10 +25,11 @@ app.js
 
 ![image](https://github.com/jeongyeonhwang/node.js/assets/90510701/ab8205ae-9e52-4f45-a2c6-05f2d4eaefe6)
 
-*index.js로 연결
+* 라우팅
 
 ![image](https://github.com/jeongyeonhwang/node.js/assets/90510701/67504d64-1896-471b-9b6c-974c37e8e335)
 
-
 ## 4. Controller 분리
+
+
 
