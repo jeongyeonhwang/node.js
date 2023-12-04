@@ -76,3 +76,14 @@ router.get("/login", ctrl.login);
 > 컴파일이 실행된 위치를 기반으로 각 파일들의 위치를 상대적으로 검사하기 때문임
 >
 > 루트 폴더에서 실행해야 하는 이유.
+
+## 6. package.json
+
+```javascript
+npm init //패키지 설정 초기화
+```
+
+```javascript
+npm init -y //패키지 설정 기본값으로 초기화 (yes의 y)
+```
+
