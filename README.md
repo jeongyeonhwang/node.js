@@ -87,3 +87,17 @@ npm init //패키지 설정 초기화
 npm init -y //패키지 설정 기본값으로 초기화 (yes의 y)
 ```
 
+> package.json
+
+* 모듈, 모듈 버전의 범위가 대략적으로 명시됨.  
+* "scripts" 에 "start": "node ./bin/www.js" 추가
+
+![image](https://github.com/jeongyeonhwang/node.js/assets/90510701/681d78a7-483f-434c-b100-dec815de6ed5)
+
+npm start 입력하면 바로 서버 가동됨.
+
+> package-lock.json
+
+* 모듈, 모듈의 버전을 명확히 명시해줌.
+
+
