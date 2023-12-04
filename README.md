@@ -61,4 +61,16 @@ router.get("/", ctrl.hello);
 router.get("/login", ctrl.login);
 ```
 
+## 5. app.listen() 모듈화 시키기
+
+* bin 폴더 생성 후 www.js 에 app.listen() 따로 빼줌
+
+ ![image](https://github.com/jeongyeonhwang/node.js/assets/90510701/4f1ae072-8b2f-43b8-ba14-3d8fb2ad8533)
+
+* app.listen() 코드 작성 주의 사항 !! PORT 번호 가져오는 것 잊지 말기
+
+![image](https://github.com/jeongyeonhwang/node.js/assets/90510701/7b2af180-2c11-49c9-a2b6-92e804262d25)
+
+./bin/www.js vs www.js(디렉터리 안에서 호출)
+전자는 문제 없이 잘 돌아갔지만 후자는 error 발생함.
 
